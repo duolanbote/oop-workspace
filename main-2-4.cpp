@@ -7,8 +7,8 @@ int main() {
     int a[] = {5, -2, 7, 9, 0, 3};
     int n = 6;
 
-    std::cout << array_min(a, n) << std::endl;     // -2
-    std::cout << array_max(a, n) << std::endl;     // 9
-    std::cout << sum_min_max(a, n) << std::endl;   // 7
+    std::cout << array_min(a, n) << std::endl; 
+    std::cout << array_max(a, n) << std::endl;  
+    std::cout << sum_min_max(a, n) << std::endl; 
     return 0;
 }

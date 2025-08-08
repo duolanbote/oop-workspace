@@ -2,7 +2,7 @@
 #include <string>
 
 void print_binary_str(std::string decimal_number) {
-    int n = std::stoi(decimal_number);   // 题目允许 1~9 位、只含 0-9
+    int n = std::stoi(decimal_number);  
     if (n == 0) {
         std::cout << "0" << std::endl;
         return;
