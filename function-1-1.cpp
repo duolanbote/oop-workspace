@@ -1,0 +1,13 @@
+#include <iostream>
+
+int sum_diagonal(int array[4][4]){
+    
+    int sum = 0;  //define original sum
+
+    for (int i = 0; i < 4; i++)
+    {
+       sum += array[i][i];
+    }
+    return sum;
+
+}
